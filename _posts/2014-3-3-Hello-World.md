@@ -20,7 +20,7 @@ def yourfunction():
 
 RRoooooo
 
-{% highlight python %}
+{% highlight R %}
 def yourfunction():
      print "Hello World!"
 {% endhighlight %}
