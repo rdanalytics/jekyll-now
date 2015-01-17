@@ -2,7 +2,12 @@
 layout: post
 title: You're up and running!
 ---
-<i class="fa fa-camera-retro"></i> fa-camera-retro
+<div class="list-group">
+  <a class="list-group-item" href="#"><i class="fa fa-home fa-fw"></i>&nbsp; Home</a>
+  <a class="list-group-item" href="#"><i class="fa fa-book fa-fw"></i>&nbsp; Library</a>
+  <a class="list-group-item" href="#"><i class="fa fa-pencil fa-fw"></i>&nbsp; Applications</a>
+  <a class="list-group-item" href="#"><i class="fa fa-cog fa-fw"></i>&nbsp; Settings</a>
+</div>
 
 
 Next you can update your site name, avatar and other options using the _config.yml file in the root of your repository (shown below :point_down:).
