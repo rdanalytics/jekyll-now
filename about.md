@@ -4,12 +4,12 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+Blogs about how to use analytics in the business world. The examples are written in Python and in R. 
 
 ### More Information
 
-A place to include any other types of information that you'd like to include about yourself. 
+Two Guatemalans 
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[rdanalytics.studio@gmail.com](mailto:rdanalytics.studio@gmail.com)
