@@ -12,7 +12,7 @@ def yourfunction():
 
 RRoooooo
 
-{% highlight R %}
+{% highlight Python %}
 In [1]: new_svm_predicted
 Out [1]: array([0, 1, 0])
 {% endhighlight %}
