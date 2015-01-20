@@ -8,7 +8,7 @@ Blogs about how to use analytics in the business world. The examples are written
 
 ### More Information
 
-Two Guatemalans 
+Rodolfo Soto
 
 ### Contact me
 
