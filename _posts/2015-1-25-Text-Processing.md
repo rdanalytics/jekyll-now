@@ -5,10 +5,6 @@ title: How to Predict High Salary Job Postings using Scikit-Learn Text Processin
 
 
 
-```python
-def yourfunction():
-     print "Hello World!"
-```
 
 RRoooooo
 
