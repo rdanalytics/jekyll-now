@@ -8,9 +8,9 @@ Blogs about how to use analytics in the business world. The examples are written
 
 ### More Information
 
-<img src="https://github.com/rdanalytics/rdanalytics.github.io/blob/master/images/Rodi.jpg" alt="Smiley face" height="100" width="80"/>
+![Flowers](/images/Rodi.jpg){: .callout}
 
-![an image alt text]({{ site.baseurl }}/images/Rodi.jpg =250x200 "Rodolfo Soto")
+![an image alt text]({{ site.baseurl }}/images/Rodi.jpg "Rodolfo Soto")
 
 My name is Rodolfo Soto, I am 
 
