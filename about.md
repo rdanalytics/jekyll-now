@@ -8,7 +8,7 @@ Blogs about how to use analytics in the business world. The examples are written
 
 ### More Information
 
-Rodolfo Soto
+https://github.com/rdanalytics/rdanalytics.github.io/blob/master/images/Resume%20Book.jpg
 
 ### Contact me
 
