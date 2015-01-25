@@ -7,7 +7,7 @@ layout: default
     <h1 class="post-title" itemprop='headline'>{{ page.title }}</h1>
     <div class="post-meta">
         <span itemprop='dateCreated'>{{ page.date | date: "%b %-d, %Y" }}</span>
-        <span>- By</span>
+        <span>- By:</span>
         <span itemprop='author'>{% if page.author %}{{ page.author }}{% else site.author %}{% endif %}</span>
         <span>- About:</span>
         <span itemprop='keywords'>{% if page.keywords %}{{ page.keywords }}{% endif %}</span>
