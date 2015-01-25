@@ -11,7 +11,7 @@ Blogs about how to use analytics in the business world. The examples are written
 {:.rodi}
 ![Rodi]({{ site.baseurl }}/images/Rodi.jpg "Rodi")
 
-My name is Rodolfo Soto, I am 
+**Rodolfo Soto**, is a graduate student from the University of Texas at Austin in Business Analytics. His experience and projects vary from    
 
 ### Contact me
 
