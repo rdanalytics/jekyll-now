@@ -8,7 +8,7 @@ Blogs about how to use analytics in the business world. The examples are written
 
 ### More Information
 
-<img src="({{ site.baseurl }}/images/Rodi.jpg" alt="Drawing" style="width: 200px;"/>
+<img src="https://github.com/rdanalytics/rdanalytics.github.io/blob/master/images/Rodi.jpg" alt="Drawing" style="width: 200px;"/>
 
 ![an image alt text]({{ site.baseurl }}/images/Rodi.jpg "Rodolfo Soto")
 
