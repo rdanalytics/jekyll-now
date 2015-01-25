@@ -8,7 +8,9 @@ Blogs about how to use analytics in the business world. The examples are written
 
 ### More Information
 
-https://github.com/rdanalytics/rdanalytics.github.io/blob/master/images/Resume%20Book.jpg
+![an image alt text]({{ site.baseurl }}/images/Rodi.jpg "Rodolfo Soto")
+
+My name is Rodolfo Soto, I am 
 
 ### Contact me
 
