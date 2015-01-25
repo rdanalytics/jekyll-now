@@ -8,7 +8,7 @@ Blogs about how to use analytics in the business world. The examples are written
 
 ### More Information
 
-<img src="https://github.com/rdanalytics/rdanalytics.github.io/blob/master/images/Rodi.jpg" alt="Drawing" style="width: 100px;"/>
+![rodi]({{ site.baseurl }}/images/Rodi.png "Rodi")
 
 My name is Rodolfo Soto, I am 
 
