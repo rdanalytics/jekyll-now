@@ -114,7 +114,8 @@ $$
 
 
 {% highlight python %}
-vectorizer = TfidfVectorizer(min_df=2,ngram_range=(1, 2), stop_words='english', strip_accents='unicode', norm='l2', lowercase = True)
+vectorizer = TfidfVectorizer(min_df=2,ngram_range=(1, 2), stop_words='english', strip_accents='unicode', 
+norm='l2', lowercase = True)
 
 X_train = vectorizer.fit_transform(train_set)
 X_test = vectorizer.transform(test_set)
