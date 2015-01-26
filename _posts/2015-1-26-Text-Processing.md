@@ -97,6 +97,7 @@ After successfully shaping the data to our needs we will now use Sciki-Learn **t
 
 ###TF
 $$
+
 \begin{align*}
 & {tf}(t,d) = 0.5 + \frac{0.5 \times \mathrm{f}(t, d)}{\max\{\mathrm{f}(w, d):w \in d\}}
 \end{align*}
@@ -104,6 +105,7 @@ $$
 
 ###IDF
 $$
+
 \begin{align*}
 & {idf}(t, D) =  \log \frac{N}{|\{d \in D: t \in d\}|}
 \end{align*}
