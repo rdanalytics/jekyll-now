@@ -4,8 +4,12 @@ title: "How to Predict High Salary Job Postings Using Scikit-Learn Text Processi
 categories: python pandas
 author: Rodolfo Soto
 keywords: Text Processing Scikit-Learn
-
 ---
+
+In the past couple of years the use of unstructured data for data mining and machine learning has increased exponentially. This is due thanks to the continues improvement of tools such as NLTK as well as Scikit-Learn, which have allowed to use text for prediction and classification in easier way. Today we will review Scikit-Learn's text feauture extraction package, the **tfidvectorizer** to be more precise.    
+
+
+
 {% highlight python %}
 |-------------+-------------------|
 |	      |	SalaryNormalized  |
