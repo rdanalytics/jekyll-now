@@ -114,8 +114,13 @@ $$
 
 
 {% highlight python %}
-vectorizer = TfidfVectorizer(min_df=2,ngram_range=(1, 2),stop_words='english', strip_accents='unicode', norm='l2', lowercase = True)
+vectorizer = TfidfVectorizer(min_df=2,ngram_range=(1, 2), stop_words='english', strip_accents='unicode', norm='l2', lowercase = True)
 
 X_train = vectorizer.fit_transform(train_set)
 X_test = vectorizer.transform(test_set)
 {% endhighlight %}
+
+
+In order to improve the accuracy of our model we remove all the stop words from our corpus as well all the accents. At the same time to avoid exact words being stored twice we also convert all the words in the corpus to lowercase, thus shrinking the size of the dictionary as well as improving the precision with wich our model predicts.    
+
+
