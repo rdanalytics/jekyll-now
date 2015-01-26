@@ -46,6 +46,18 @@ Out [1]:
 
 
 In [2]:
+data = [np.array(x) for x in io.values]
+
+random.shuffle(data)
+size = int(len(data) * 0.6)
+test_set, train_set = data[size:], data[:size]
+train_set = np.array(train_set)
+test_set = np.array(test_set)
+x = train_set[:,1]
+Sal75=np.percentile(x,75)
+y = test_set[:,1]
+Test75=np.percentile(y,75)
+
 for i in range(len(train_set[:,1])):
     if train_set[i,1]>=Sal75:
         train_set[i,1]=1
@@ -57,6 +69,15 @@ for i in range(len(test_set[:,1])):
         test_set[i,1]=1
     else:
         test_set[i,1]=0
+train_setT = [tuple(x) for x in train_set]
+test_setT = [tuple(x) for x in test_set]
+
+
+train_set = np.array([''.join(el[0]) for el in train_setT])
+test_set = np.array([''.join(el[0]) for el in test_setT])
+
+y_train = np.array([el[1] for el in train_setT])
+y_test = np.array([el[1] for el in test_setT])
 {% endhighlight %}
 
 
