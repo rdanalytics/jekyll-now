@@ -93,7 +93,7 @@ y_test = np.array([el[1] for el in test_setT])
 
 
 
-After successfully shaping the data to our needs we will now use Sciki-Learn **tfidvectorizer**. This class converts a collection of raw documents to a matrix of TF-IDF features. TF-IDF stands for the "Term Frequency" or the the number of times that term t occurs in document d, and "Inverse Document Frequency" which divides the total number of documents by the number of documents containing the term t, and then taking the logarithm of that division. 
+After successfully shaping the data to our needs we will now use Sciki-Learn tfidvectorizer. This class converts a collection of raw documents to a matrix of TF-IDF features. TF-IDF stands for the "Term Frequency" or the the number of times that term t occurs in document d, and "Inverse Document Frequency" which divides the total number of documents by the number of documents containing the term t, and then taking the log of that division. 
 
 ###TF
 
@@ -110,3 +110,12 @@ $$
 & {idf}(t, D) =  \log \frac{N}{|\{d \in D: t \in d\}|}
 \end{align*}
 $$
+
+
+
+{% highlight python %}
+vectorizer = TfidfVectorizer(min_df=2,ngram_range=(1, 2),stop_words='english', strip_accents='unicode', norm='l2', lowercase = True)
+
+X_train = vectorizer.fit_transform(train_set)
+X_test = vectorizer.transform(test_set)
+{% endhighlight %}
