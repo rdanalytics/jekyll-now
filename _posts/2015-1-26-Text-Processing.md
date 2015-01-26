@@ -44,7 +44,13 @@ Out [1]:
 |	max   |	200000.000000     |
 |-------------+-------------------|
 
+{% endhighlight %}
 
+
+As we can see above the 75th percentile for the salaries is set at £42,500.00, which is approximately $63,794.18. Now we need to convert our pandas data frame into numpy array and then split our data into a training and a testing set. After performing these steps we will then dummy code our response variable respectively.   
+
+
+{% highlight python %}
 In [2]:
 data = [np.array(x) for x in io.values]
 
@@ -81,7 +87,6 @@ y_test = np.array([el[1] for el in test_setT])
 {% endhighlight %}
 
 
-As we can see above the 75th percentile for the salaries is set at £42,500.00, which is approximately $63,794.18.   
 
 $$
 \begin{align*}
