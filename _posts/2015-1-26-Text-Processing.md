@@ -47,7 +47,11 @@ Out [1]:
 {% endhighlight %}
 
 
-As we can see above the 75th percentile for the salaries is set at £42,500.00, which is approximately $63,794.18. Now we need to convert our pandas data frame into numpy array and then split our data into a training and a testing set. After performing these steps we will then dummy code our response variable respectively.   
+
+
+As we can see above the 75th percentile for the salaries is set at £42,500.00, which is approximately $63,794.18. Now we need to convert our pandas data frame into numpy array and then split our data into a training and a testing set. After performing these steps we will then dummy code our response variable to ones and zeroes respectively.   
+
+
 
 
 {% highlight python %}
