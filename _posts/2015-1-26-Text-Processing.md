@@ -12,7 +12,9 @@ In the past couple of years the use of unstructured data for data mining and mac
 
 
 
-For this exercise we will use our job posting dataset to attempt to predict high salary job postings. In order to achieve this we will first dummy code our response variable, which is the normalized salary for each job. To dummy code the dependent variable we agreed to set the 75th percentile as the cutoff between a high salary job and the rest of the job postings. 
+
+For this exercise we will use our job posting dataset to attempt to predict high salary job postings. In order to achieve this we will first dummy code our response variable, which is the normalized salary for each job. To dummy code the dependent variable we agreed to set the cutoff between a high salary job and the rest of the job postings as the 75th percentile, anything above this number will be given a one and anything below it will be given a zero.   
+
        
 {% highlight python %}
 In [1]:
@@ -29,7 +31,6 @@ io = pandas.read_csv('Train_rev1.csv',sep=',',usecols=(2,10))
 io.describe()
 
 Out [1]:
-
 |-------------+-------------------|
 |	      |	SalaryNormalized  |
 |-------------|:------------------|
@@ -43,6 +44,9 @@ Out [1]:
 |	max   |	200000.000000     |
 |-------------+-------------------|
 {% endhighlight %}
+
+
+As we can see above the 75th percentile for the salaries is set at £42,500.00, which is approximately $63,794.18.   
 
 $$
 \begin{align*}
