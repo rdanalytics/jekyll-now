@@ -21,4 +21,8 @@ keywords: Text Processing Scikit-Learn
 |-------------+-------------------|
 {% endhighlight %}
 
-\mathrm{tf}(t,d) = 0.5 + \frac{0.5 \times \mathrm{f}(t, d)}{\max\{\mathrm{f}(w, d):w \in d\}}
+$$
+\begin{align*}
+& {tf}(t,d) = 0.5 + \frac{0.5 \times \mathrm{f}(t, d)}{\max\{\mathrm{f}(w, d):w \in d\}}
+\end{align*}
+$$
