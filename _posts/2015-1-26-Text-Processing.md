@@ -8,16 +8,6 @@ keywords: Text Processing Scikit-Learn
 ---
 
 
-First level header
-==================
-
-Second level header
-------
-
-   Other first level header
-=
-
-
 
 
 
