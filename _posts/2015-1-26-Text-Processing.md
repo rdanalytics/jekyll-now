@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "How to Predict High Salary Job Postings Using Scikit-Learn Text Processing"
+title: "How to Predict High Salary Job Postings Using Scikit-Learn Text Processing Toolkit"
 categories: python pandas
 author: Rodolfo Soto
 keywords: Text Processing Scikit-Learn
