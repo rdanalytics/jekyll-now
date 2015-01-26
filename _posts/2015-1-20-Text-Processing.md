@@ -31,11 +31,11 @@ Out[3]: Index([u'salary_min', u'description', u'title', u'salary_max', u'applica
 
 
 |---
-| Default aligned | Left aligned | Center aligned | Right aligned
+| Default aligned  |   Left aligned |   Center aligned |   Right aligned
 |-|:-|:-:|-:
-| First body part | Second cell | Third cell | fourth cell
-| Second line |foo | **strong** | baz
-| Third line |quux | baz | bar
+| First body part  |   Second cell |   Third cell |   fourth cell
+| Second line |  foo |  **strong** |  baz
+|  Third line |quux | baz | bar
 |---
 | Second body
 | 2 line
