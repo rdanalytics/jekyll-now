@@ -7,10 +7,10 @@ keywords: Text Processing Scikit-Learn
 
 ---
 {% highlight python %}
-|------|--------------------|  
-|      |   SalaryNormalized |
-|------|--------------------|
-|count |   244768.000000    |
+|------ |-------------------|  
+|       | SalaryNormalized  |
+|------ |-------------------|
+|count  |   244768.000000   |
 |mean	 | 34122.577576     |
 |std	 | 17640.543124     |
 |min	 | 5000.000000      |
