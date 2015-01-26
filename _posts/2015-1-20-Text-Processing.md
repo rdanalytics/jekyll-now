@@ -10,7 +10,9 @@ keywords: Text Processing Scikit-Learn
 
 
 
-RRoooooo
+```ruby
+puts "This code will be highlighted"
+```
 
 {% highlight Python %}
 In [1]: new_svm_predicted
