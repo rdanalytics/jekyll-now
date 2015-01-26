@@ -43,6 +43,20 @@ Out [1]:
 |	75%   |	42500.000000      |
 |	max   |	200000.000000     |
 |-------------+-------------------|
+
+
+In [2]:
+for i in range(len(train_set[:,1])):
+    if train_set[i,1]>=Sal75:
+        train_set[i,1]=1
+    else:
+        train_set[i,1]=0
+
+for i in range(len(test_set[:,1])):
+    if test_set[i,1]>=Test75:
+        test_set[i,1]=1
+    else:
+        test_set[i,1]=0
 {% endhighlight %}
 
 
