@@ -92,8 +92,19 @@ y_test = np.array([el[1] for el in test_setT])
 
 
 
+
+After successfully shaping the data to our needs we will now use Sciki-Learn **tfidvectorizer**. This class converts a collection of raw documents to a matrix of TF-IDF features. TF-IDF stands for the "Term Frequency" or the the number of times that term t occurs in document d, and "Inverse Document Frequency" which divides the total number of documents by the number of documents containing the term t, and then taking the logarithm of that division. 
+
+###TF
 $$
 \begin{align*}
 & {tf}(t,d) = 0.5 + \frac{0.5 \times \mathrm{f}(t, d)}{\max\{\mathrm{f}(w, d):w \in d\}}
+\end{align*}
+$$
+
+###IDF
+$$
+\begin{align*}
+& {idf}(t, D) =  \log \frac{N}{|\{d \in D: t \in d\}|}
 \end{align*}
 $$
