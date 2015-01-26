@@ -13,7 +13,7 @@ In the past couple of years the use of unstructured data for data mining and mac
 
 
 
-For this exercise we will use our job posting dataset to attempt to predict high salary job postings. In order to achieve this we will first dummy code our response variable, which is the normalized salary for each job. To dummy code the dependent variable we agreed to set the cutoff between a high salary job and the rest of the job postings as the 75th percentile, anything above this number will be given a one and anything below it will be given a zero.   
+For this exercise we will use our dataset to attempt to predict high salary job postings. In order to achieve this we will first dummy code our response variable, which is the normalized salary for each job. To dummy code the dependent variable we agreed to set the cutoff between a high salary job and the rest of the job postings as the 75th percentile, anything above this number will be given a one and anything below it will be given a zero.   
 
        
 {% highlight python %}
