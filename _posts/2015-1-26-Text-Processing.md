@@ -124,4 +124,10 @@ X_test = vectorizer.transform(test_set)
 
 In order to improve the accuracy of our model we remove all the stop words from our corpus as well all the accents. At the same time to avoid exact words being stored twice we also convert all the words in the corpus to lowercase, thus shrinking the size of the dictionary as well as improving the precision with wich our model predicts.    
 
+<div>
+    <a href="https://plot.ly/~rodisoto/64/" target="_blank" title="Top Recruiting Classes Sentiment Analysis" style="display: block; text-align: center;"><img src="https://plot.ly/~rodisoto/64.png" alt="Top Recruiting Classes Sentiment Analysis" style="max-width: 100%;width: 1151px;"  width="1151" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
+    <script data-plotly="rodisoto:64" src="https://plot.ly/embed.js" async></script>
+</div>
+
+
 
